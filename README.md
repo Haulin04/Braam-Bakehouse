@@ -60,12 +60,47 @@ wireframes and the development of the initial HTML pages.
 
 ## Sitemap
 
-Home
-|
-|-- About Us
-|-- Products
-|-- Enquiry
-|-- Contact
+The Braam Bakehouse website consists of five main pages:
+
+- **Home** (`index.html`)
+  - Welcome section
+  - Bakery introduction
+  - Featured products
+  - Navigation
+
+- **About Us** (`about.html`)
+  - Bakery information
+  - Mission
+  - Vision
+  - Values
+
+- **Products** (`products.html`)
+  - Cakes
+  - Bread
+  - Pastries
+  - Cupcakes
+  - Product information and prices
+
+- **Enquiry** (`enquiry.html`)
+  - Customer name
+  - Email address
+  - Phone number
+  - Enquiry type
+  - Message
+  - Submit button
+
+- **Contact** (`contact.html`)
+  - Address/location
+  - Telephone number
+  - Email address
+  - Opening hours
+  - Location/map
+
+### Website Navigation
+
+Home → About Us → Products → Enquiry → Contact
+
+All five pages will contain navigation links that allow users to move between the pages.
 
 ## Changelog
 
