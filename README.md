@@ -52,7 +52,7 @@ Category name
 Short description
 Link to the Services page
 
-The cards provide a visual way of organising related content. Graphical representation and organisation are among the website design elements identified in research on user engagement (Garett et al., 2016).
+The cards provide a visual way of organising related content. Graphical representation and organisation are among the website design elements identified in research on user engagement Garett et al., 2016.
 
 ## Hamburger Navigation Menu
 
@@ -68,7 +68,7 @@ Contact
 
 The hamburger menu helps reduce the amount of space required by navigation links while still allowing users to access the different pages.
 
-The navigation structure follows the principle that website navigation should be clear and organised because navigation is an important component of website design and user engagement (Garett et al., 2016).
+The navigation structure follows the principle that website navigation should be clear and organised because navigation is an important component of website design and user engagement Garett et al., 2016.
 
 ## Search Bar
 
@@ -114,7 +114,7 @@ Product cards
 
 The purpose of the design is to create a consistent visual identity for Braam Bakehouse.
 
-Website design research identifies simplicity, readability, organisation, navigation and graphical representation as important design elements (Garett et al., 2016).
+Website design research identifies simplicity, readability, organisation, navigation and graphical representation as important design elements Garett et al., 2016.
 
 The website contains five main pages:
 
@@ -188,11 +188,11 @@ The Braam Bakehouse website demonstrates the development of a fictional bakery w
 
 The website provides users with information about the bakery, products, enquiries and contact details. It also includes interactive features such as product quantity calculations, a hamburger navigation menu, product cards, a search interface and a Go Back to Top button.
 
-The website was designed with a focus on navigation, organisation, readability, simplicity and visual presentation. These design considerations are supported by research identifying navigation, graphical representation, organisation, content usefulness, purpose, simplicity and readability as important elements of website design (Garett et al., 2016).
+The website was designed with a focus on navigation, organisation, readability, simplicity and visual presentation. These design considerations are supported by research identifying navigation, graphical representation, organisation, content usefulness, purpose, simplicity and readability as important elements of website design Garett et al., 2016.
 
-Responsive design was also incorporated so that the website can adjust its layout for different screen sizes. Research has investigated responsive design in relation to website usability, supporting the importance of considering different devices when designing websites (Parlakkiliç, 2022).
+Responsive design was also incorporated so that the website can adjust its layout for different screen sizes. Research has investigated responsive design in relation to website usability, supporting the importance of considering different devices when designing websites Parlakkiliç, 2022.
 
-Basic accessibility considerations were also included, such as alternative text for images and structured HTML. WCAG 2.2 provides internationally recognised guidance for improving web accessibility across different devices and for users with different accessibility needs (World Wide Web Consortium, 2024).
+Basic accessibility considerations were also included, such as alternative text for images and structured HTML. WCAG 2.2 provides internationally recognised guidance for improving web accessibility across different devices and for users with different accessibility needs World Wide Web Consortium, 2024.
 
 Overall, the project demonstrates the practical application of front-end web development concepts and provides a foundation for future development into a more advanced bakery ordering system.
 
