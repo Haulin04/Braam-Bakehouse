@@ -184,7 +184,7 @@ Improved the visual consistency of the website.
 
 ## CONCLUSION
 
-The Braam Bakehouse website demonstrates the development of a fictional bakery website using HTML5, CSS3 and JavaScript.
+The Braam Bakehouse website demonstrates the development of a fictional bakery website using HTML5 and CSS.
 
 The website provides users with information about the bakery, products, enquiries and contact details. It also includes interactive features such as product quantity calculations, a hamburger navigation menu, product cards, a search interface and a Go Back to Top button.
 
