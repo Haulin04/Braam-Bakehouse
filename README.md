@@ -37,7 +37,7 @@ If sending fails (no internet, or not activated yet) the contact form offers an 
 
 ## Changelog
 
-### Part 3 (this version)
+### Part 3 
 
 **Corrections from Part 2**
 * Fixed the misspelt `Assests` folder → pages now live in `pages/` with clean, lower-case file names (`about.html`, not `About.html`).
@@ -86,6 +86,10 @@ If sending fails (no internet, or not activated yet) the contact form offers an 
 * `JS/forms.js` → `NOTICE_DAYS` (custom cakes 3 days, bulk orders 2 days) is an **example rule**; set your own.
 * Checkout shows an order number but does not send or store orders and takes no payment.
 
+  ## Folder layout
+
+Only `index.html`, `README.md` and the proposal documents sit at the top level. Everything else is in `CSS/`, `JS/` or `pages/` (pictures are in the top-level `Image/` folder; `404.html`, `robots.txt`, `sitemap.xml` and `_headers` are in `pages/`).
+
 ## References
 
 * Leaflet 1.9.4 – interactive maps. https://leafletjs.com
@@ -98,8 +102,6 @@ If sending fails (no internet, or not activated yet) the contact form offers an 
 * Netlify Docs – custom headers and 404 pages. https://docs.netlify.com
 * Product and banner images: created for this project (AI-generated).
 
-## Folder layout
 
-Only `index.html`, `README.md` and the proposal documents sit at the top level. Everything else is in `CSS/`, `JS/` or `pages/` (pictures are in the top-level `Image/` folder; `404.html`, `robots.txt`, `sitemap.xml` and `_headers` are in `pages/`).
 
-Note: hosts like Netlify only use `404.html`, `robots.txt` and `sitemap.xml` automatically when they are at the top level, so move them back up when deploying if you want those features to work.
+
