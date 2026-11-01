@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/34242027/README.md)
 # Braam Bakehouse – Website (Part 3)
 
 A website for **Braam Bakehouse**, a fictional student bakery at 100 Jorissen Street, Braamfontein, Johannesburg.
@@ -103,4 +102,4 @@ If sending fails (no internet, or not activated yet) the contact form offers an 
 
 Only `index.html`, `README.md` and the proposal documents sit at the top level. Everything else is in `CSS/`, `JS/` or `pages/` (pictures are in the top-level `Image/` folder; `404.html`, `robots.txt`, `sitemap.xml` and `_headers` are in `pages/`).
 
-
+Note: hosts like Netlify only use `404.html`, `robots.txt` and `sitemap.xml` automatically when they are at the top level, so move them back up when deploying if you want those features to work.
