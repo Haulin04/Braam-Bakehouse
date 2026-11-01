@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry: Custom Cakes &amp; Bulk Orders | Braam Bakehouse</title>
+    <meta name="description" content="Ask Braam Bakehouse about custom cakes, cupcakes, pastries, bread or bulk orders and get an instant cost estimate and availability for your date.">
+    <meta name="keywords" content="custom cake Johannesburg, bulk cupcake order, birthday cake Braamfontein, cake quote">
+    <meta name="author" content="Braam Bakehouse">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#5c2e1f">
+    <link rel="canonical" href="https://braam-bakehouse.netlify.app/pages/enquiry.html">
+
+    <!-- social media previews (Facebook, WhatsApp, X) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Braam Bakehouse">
+    <meta property="og:locale" content="en_ZA">
+    <meta property="og:title" content="Enquiry: Custom Cakes &amp; Bulk Orders | Braam Bakehouse">
+    <meta property="og:description" content="Ask Braam Bakehouse about custom cakes, cupcakes, pastries, bread or bulk orders and get an instant cost estimate and availability for your date.">
+    <meta property="og:url" content="https://braam-bakehouse.netlify.app/pages/enquiry.html">
+    <meta property="og:image" content="https://braam-bakehouse.netlify.app/Image/braam-bakehouse-social.jpg">
+    <meta property="og:image:alt" content="Braam Bakehouse cakes, bread, cupcakes and pastries">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Enquiry: Custom Cakes &amp; Bulk Orders | Braam Bakehouse">
+    <meta name="twitter:description" content="Ask Braam Bakehouse about custom cakes, cupcakes, pastries, bread or bulk orders and get an instant cost estimate and availability for your date.">
+    <meta name="twitter:image" content="https://braam-bakehouse.netlify.app/Image/braam-bakehouse-social.jpg">
+
+    <link rel="icon" type="image/png" href="../Image/favicon.png">
+    <link rel="preload" as="image" href="../Image/braam-bakehouse-logo.webp">
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head>
+
+<body id="top">
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <!-- three-line dropdown menu (mobile) -->
+        <div class="dropdown-menu">
+            <input type="checkbox" id="menu-toggle" aria-label="Open menu">
+            <label for="menu-toggle" class="menu-button" title="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="dropdown-content" aria-label="Menu">
+            <a href="../index.html">Homepage</a>
+            <a href="../pages/about.html">About us</a>
+            <a href="../pages/services.html">Services</a>
+            <a href="../pages/gallery.html">Gallery</a>
+            <a href="../pages/enquiry.html">Enquiry</a>
+            <a href="../pages/contact.html">Contact</a>
+            </nav>
+        </div>
+
+        <a href="../index.html" class="logo-link">
+            <img src="../Image/braam-bakehouse-logo.webp" alt="Braam Bakehouse logo - Freshly Baked. Made with Love." width="130" height="130">
+        </a>
+
+        <!-- search bar: sends the search to the Services page -->
+        <form class="search-container" role="search" action="../pages/services.html" method="get">
+            <label for="site-search" class="visually-hidden">Search our products</label>
+            <input type="search" id="site-search" name="q" placeholder="Search cakes, bread..." maxlength="60">
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- main navigation -->
+        <nav class="main-nav" aria-label="Main">
+            <a href="../index.html">Homepage</a>
+            <a href="../pages/about.html">About us</a>
+            <a href="../pages/services.html">Services</a>
+            <a href="../pages/gallery.html">Gallery</a>
+            <a href="../pages/enquiry.html" aria-current="page">Enquiry</a>
+            <a href="../pages/contact.html">Contact</a>
+        </nav>
+
+        <!-- cart and wishlist buttons (made to work by JS/script.js) -->
+        <div class="shop-bar">
+            <a href="../pages/wishlist.html" class="shop-link">&#9825; Wishlist (<span class="wish-count">0</span>)</a>
+            <button type="button" class="shop-link cart-open">&#128722; Cart (<span class="cart-count">0</span>)</button>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="page-intro reveal">
+            <p class="eyebrow">Enquiry</p>
+            <h1>Make an Enquiry</h1>
+            <p>Looking for something special? Complete the form below and tell us what you need. Whether you're
+                planning a birthday, celebration or event, our team will be happy to assist you. You'll see an
+                estimated cost and whether your date is available straight away.</p>
+        </section>
+
+        <section class="form-section reveal" aria-labelledby="enquiry-title">
+            <h2 id="enquiry-title">Enquiry details</h2>
+            <p class="muted">All fields are required.</p>
+            <form id="enquiry-form" action="https://formsubmit.co/info@braambakehouse.co.za" method="post" novalidate>
+                <p class="error-summary" role="alert"></p>
+
+                <div class="form-group">
+                    <label for="en-name">Full name</label>
+                    <input type="text" id="en-name" name="name" autocomplete="name" required minlength="2" maxlength="60">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="en-email">Email address</label>
+                        <input type="email" id="en-email" name="email" autocomplete="email" required maxlength="100">
+                    </div>
+                    <div class="form-group">
+                        <label for="en-phone">Phone number</label>
+                        <input type="tel" id="en-phone" name="phone" autocomplete="tel" required placeholder="061 234 5678"
+                               pattern="(0[0-9]{2} ?[0-9]{3} ?[0-9]{4}|\+27 ?[0-9]{2} ?[0-9]{3} ?[0-9]{4})" maxlength="16">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="en-type">Enquiry type</label>
+                        <select id="en-type" name="enquiry_type" required>
+                            <option value="">Select an option</option>
+                            <option value="custom">Custom cakes</option>
+                            <option value="cupcakes">Cupcakes</option>
+                            <option value="pastries">Pastries</option>
+                            <option value="bulk">Bulk orders</option>
+                            <option value="bread">Bread</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <p id="notice-hint" class="hint" aria-live="polite"></p>
+                    </div>
+                    <div class="form-group" id="product-group" hidden>
+                        <label for="en-product">Product</label>
+                        <select id="en-product" name="product">
+                            <option value="">Select a product</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="en-qty">Quantity</label>
+                        <input type="number" id="en-qty" name="quantity" min="1" max="200" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="en-date">Date needed</label>
+                        <input type="date" id="en-date" name="date_needed" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="en-notes">Order notes</label>
+                    <textarea id="en-notes" name="notes" rows="5" required minlength="10" maxlength="500"
+                              placeholder="Flavour, message on the cake, number of guests..."></textarea>
+                </div>
+
+                <!-- honeypot field: hidden from people, catches spam bots -->
+                <div class="visually-hidden" aria-hidden="true">
+                    <label for="en-honey">Leave this empty</label>
+                    <input type="text" id="en-honey" name="_honey" tabindex="-1" autocomplete="off">
+                </div>
+
+                <div class="btn-row">
+                    <button type="submit">Submit enquiry</button>
+                    <button type="reset" class="btn-outline">Reset all</button>
+                </div>
+            </form>
+
+            <div id="enquiry-result" class="form-success" tabindex="-1" hidden></div>
+        </section>
+
+        <p class="note">*We aim to respond to enquiries as soon as possible. Please note that submitting an enquiry
+            does not automatically confirm an order. Want to order straight away? <a href="services.html">Shop online</a>.*</p>
+    </main>
+
+    <a href="#top" class="back-to-top">&uarr; Go Back to Top</a>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <section>
+                <h2>Braam Bakehouse</h2>
+                <p>100 Jorissen Street, Braamfontein,<br>Johannesburg, Gauteng</p>
+                <p>Mon - Fri: 09:00 - 17:00<br>Sat - Sun: 09:00 - 15:00</p>
+                <p>Phone: <a href="tel:+27612345678">061 234 5678</a><br>
+                   Email: <a href="mailto:info@braambakehouse.co.za">info@braambakehouse.co.za</a></p>
+            </section>
+            <section>
+                <h2>Quick links</h2>
+                <ul class="footer-links">
+                    <li><a href="../pages/services.html">Cakes, cupcakes, pastries and bread</a></li>
+                    <li><a href="../pages/enquiry.html">Custom cake and bulk order enquiries</a></li>
+                    <li><a href="../pages/gallery.html">Photo gallery</a></li>
+                    <li><a href="../pages/contact.html">Find us in Braamfontein</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Follow us</h2>
+                <ul class="footer-links">
+                    <li><a href="https://www.instagram.com/braambakehouse" target="_blank" rel="noopener noreferrer">Instagram @braambakehouse</a></li>
+                    <li><a href="https://www.facebook.com/braambakehouse" target="_blank" rel="noopener noreferrer">Facebook: Braam Bakehouse</a></li>
+                </ul>
+                <p class="share">Share this page:
+                    <a href="https://wa.me/?text=https://braam-bakehouse.netlify.app/pages/enquiry.html" target="_blank" rel="noopener noreferrer">WhatsApp</a> &middot;
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://braam-bakehouse.netlify.app/pages/enquiry.html" target="_blank" rel="noopener noreferrer">Facebook</a> &middot;
+                    <a href="https://x.com/intent/post?url=https://braam-bakehouse.netlify.app/pages/enquiry.html" target="_blank" rel="noopener noreferrer">X</a>
+                </p>
+            </section>
+        </div>
+        <p class="copyright">&copy; 2026 Braam Bakehouse - Braamfontein Branch</p>
+    </footer>
+
+<script src="../JS/products.js" defer></script>
+<script src="../JS/script.js" defer></script>
+<script src="../JS/interactive.js" defer></script>
+<script src="../JS/forms.js" defer></script>
+</body>
+</html>

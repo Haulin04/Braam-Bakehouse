@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery | Braam Bakehouse Cakes, Pastries &amp; Bread</title>
+    <meta name="description" content="See photos of Braam Bakehouse celebration cakes, cupcakes, croissants and fresh bread, baked daily in Braamfontein, Johannesburg.">
+    <meta name="keywords" content="bakery photos Johannesburg, cake gallery, cupcake ideas, Braam Bakehouse pictures">
+    <meta name="author" content="Braam Bakehouse">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#5c2e1f">
+    <link rel="canonical" href="https://braam-bakehouse.netlify.app/pages/gallery.html">
+
+    <!-- social media previews (Facebook, WhatsApp, X) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Braam Bakehouse">
+    <meta property="og:locale" content="en_ZA">
+    <meta property="og:title" content="Photo Gallery | Braam Bakehouse Cakes, Pastries &amp; Bread">
+    <meta property="og:description" content="See photos of Braam Bakehouse celebration cakes, cupcakes, croissants and fresh bread, baked daily in Braamfontein, Johannesburg.">
+    <meta property="og:url" content="https://braam-bakehouse.netlify.app/pages/gallery.html">
+    <meta property="og:image" content="https://braam-bakehouse.netlify.app/Image/braam-bakehouse-social.jpg">
+    <meta property="og:image:alt" content="Braam Bakehouse cakes, bread, cupcakes and pastries">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Photo Gallery | Braam Bakehouse Cakes, Pastries &amp; Bread">
+    <meta name="twitter:description" content="See photos of Braam Bakehouse celebration cakes, cupcakes, croissants and fresh bread, baked daily in Braamfontein, Johannesburg.">
+    <meta name="twitter:image" content="https://braam-bakehouse.netlify.app/Image/braam-bakehouse-social.jpg">
+
+    <link rel="icon" type="image/png" href="../Image/favicon.png">
+    <link rel="preload" as="image" href="../Image/braam-bakehouse-logo.webp">
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head>
+
+<body id="top">
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <!-- three-line dropdown menu (mobile) -->
+        <div class="dropdown-menu">
+            <input type="checkbox" id="menu-toggle" aria-label="Open menu">
+            <label for="menu-toggle" class="menu-button" title="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="dropdown-content" aria-label="Menu">
+            <a href="../index.html">Homepage</a>
+            <a href="../pages/about.html">About us</a>
+            <a href="../pages/services.html">Services</a>
+            <a href="../pages/gallery.html">Gallery</a>
+            <a href="../pages/enquiry.html">Enquiry</a>
+            <a href="../pages/contact.html">Contact</a>
+            </nav>
+        </div>
+
+        <a href="../index.html" class="logo-link">
+            <img src="../Image/braam-bakehouse-logo.webp" alt="Braam Bakehouse logo - Freshly Baked. Made with Love." width="130" height="130">
+        </a>
+
+        <!-- search bar: sends the search to the Services page -->
+        <form class="search-container" role="search" action="../pages/services.html" method="get">
+            <label for="site-search" class="visually-hidden">Search our products</label>
+            <input type="search" id="site-search" name="q" placeholder="Search cakes, bread..." maxlength="60">
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- main navigation -->
+        <nav class="main-nav" aria-label="Main">
+            <a href="../index.html">Homepage</a>
+            <a href="../pages/about.html">About us</a>
+            <a href="../pages/services.html">Services</a>
+            <a href="../pages/gallery.html" aria-current="page">Gallery</a>
+            <a href="../pages/enquiry.html">Enquiry</a>
+            <a href="../pages/contact.html">Contact</a>
+        </nav>
+
+        <!-- cart and wishlist buttons (made to work by JS/script.js) -->
+        <div class="shop-bar">
+            <a href="../pages/wishlist.html" class="shop-link">&#9825; Wishlist (<span class="wish-count">0</span>)</a>
+            <button type="button" class="shop-link cart-open">&#128722; Cart (<span class="cart-count">0</span>)</button>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="page-intro reveal">
+            <p class="eyebrow">Gallery</p>
+            <h1>Our Bakes Gallery</h1>
+            <p>A look at what comes out of our ovens. Click any photo to see it larger, then use the arrows
+                (or your keyboard's arrow keys) to browse.</p>
+        </section>
+
+        <div class="filter-row" aria-label="Filter photos">
+                <button type="button" data-gallery-filter="all" aria-pressed="true">All</button>
+                <button type="button" data-gallery-filter="cakes" aria-pressed="false">Cakes</button>
+                <button type="button" data-gallery-filter="cupcakes" aria-pressed="false">Cupcakes</button>
+                <button type="button" data-gallery-filter="pastries" aria-pressed="false">Pastries</button>
+                <button type="button" data-gallery-filter="bread" aria-pressed="false">Bread</button>
+        </div>
+        <ul class="gallery-grid">
+                <li class="reveal">
+                    <a class="gallery-item" href="../Image/braam-bakehouse-bakery-banner.webp" data-tag="all-bakes" data-caption="Our counter in Braamfontein">
+                        <img src="../Image/braam-bakehouse-bakery-banner.webp" width="1200" height="800" loading="lazy" alt="Braam Bakehouse counter with chocolate cake, cupcakes, croissants and bread">
+                        <span class="gallery-caption">Our counter in Braamfontein</span>
+                    </a>
+                </li>
+                <li class="reveal">
+                    <a class="gallery-item" href="../Image/braam-bakehouse-cakes.webp" data-tag="cakes" data-caption="Celebration cakes">
+                        <img src="../Image/braam-bakehouse-cakes.webp" width="513" height="1024" loading="lazy" alt="Chocolate celebration cake, red velvet slice and berry cheesecake">
+                        <span class="gallery-caption">Celebration cakes</span>
+                    </a>
+                </li>
+                <li class="reveal">
+                    <a class="gallery-item" href="../Image/braam-bakehouse-cupcakes.webp" data-tag="cupcakes" data-caption="Cupcakes for every occasion">
+                        <img src="../Image/braam-bakehouse-cupcakes.webp" width="1000" height="667" loading="lazy" alt="Twelve cupcakes with chocolate, vanilla, red velvet and strawberry frosting">
+                        <span class="gallery-caption">Cupcakes for every occasion</span>
+                    </a>
+                </li>
+                <li class="reveal">
+                    <a class="gallery-item" href="../Image/braam-bakehouse-pastries.webp" data-tag="pastries" data-caption="Buttery, flaky pastries">
+                        <img src="../Image/braam-bakehouse-pastries.webp" width="503" height="1024" loading="lazy" alt="Butter croissants, cinnamon rolls and cherry Danish pastries">
+                        <span class="gallery-caption">Buttery, flaky pastries</span>
+                    </a>
+                </li>
+                <li class="reveal">
+                    <a class="gallery-item" href="../Image/braam-bakehouse-bread.webp" data-tag="bread" data-caption="Fresh bread, baked daily">
+                        <img src="../Image/braam-bakehouse-bread.webp" width="507" height="1024" loading="lazy" alt="Sliced white loaf, sourdough and golden bread rolls">
+                        <span class="gallery-caption">Fresh bread, baked daily</span>
+                    </a>
+                </li>
+                <li class="reveal">
+                    <a class="gallery-item" href="../Image/braam-bakehouse-featured-products.webp" data-tag="all-bakes" data-caption="Our featured products">
+                        <img src="../Image/braam-bakehouse-featured-products.webp" width="1000" height="667" loading="lazy" alt="Collage of Braam Bakehouse cakes, bread and pastries">
+                        <span class="gallery-caption">Our featured products</span>
+                    </a>
+                </li>
+        </ul>
+
+        <section class="visit reveal">
+            <h2>Like what you see?</h2>
+            <div class="btn-row">
+                <a class="btn" href="services.html">Order online</a>
+                <a class="btn-outline" href="enquiry.html">Ask about a custom cake</a>
+            </div>
+        </section>
+    </main>
+
+    <a href="#top" class="back-to-top">&uarr; Go Back to Top</a>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <section>
+                <h2>Braam Bakehouse</h2>
+                <p>100 Jorissen Street, Braamfontein,<br>Johannesburg, Gauteng</p>
+                <p>Mon - Fri: 09:00 - 17:00<br>Sat - Sun: 09:00 - 15:00</p>
+                <p>Phone: <a href="tel:+27612345678">061 234 5678</a><br>
+                   Email: <a href="mailto:info@braambakehouse.co.za">info@braambakehouse.co.za</a></p>
+            </section>
+            <section>
+                <h2>Quick links</h2>
+                <ul class="footer-links">
+                    <li><a href="../pages/services.html">Cakes, cupcakes, pastries and bread</a></li>
+                    <li><a href="../pages/enquiry.html">Custom cake and bulk order enquiries</a></li>
+                    <li><a href="../pages/gallery.html">Photo gallery</a></li>
+                    <li><a href="../pages/contact.html">Find us in Braamfontein</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Follow us</h2>
+                <ul class="footer-links">
+                    <li><a href="https://www.instagram.com/braambakehouse" target="_blank" rel="noopener noreferrer">Instagram @braambakehouse</a></li>
+                    <li><a href="https://www.facebook.com/braambakehouse" target="_blank" rel="noopener noreferrer">Facebook: Braam Bakehouse</a></li>
+                </ul>
+                <p class="share">Share this page:
+                    <a href="https://wa.me/?text=https://braam-bakehouse.netlify.app/pages/gallery.html" target="_blank" rel="noopener noreferrer">WhatsApp</a> &middot;
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://braam-bakehouse.netlify.app/pages/gallery.html" target="_blank" rel="noopener noreferrer">Facebook</a> &middot;
+                    <a href="https://x.com/intent/post?url=https://braam-bakehouse.netlify.app/pages/gallery.html" target="_blank" rel="noopener noreferrer">X</a>
+                </p>
+            </section>
+        </div>
+        <p class="copyright">&copy; 2026 Braam Bakehouse - Braamfontein Branch</p>
+    </footer>
+
+<script src="../JS/products.js" defer></script>
+<script src="../JS/script.js" defer></script>
+<script src="../JS/interactive.js" defer></script>
+</body>
+</html>

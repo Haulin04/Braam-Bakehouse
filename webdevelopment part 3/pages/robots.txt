@@ -1,0 +1,9 @@
+# robots.txt for Braam Bakehouse
+# Allow all search engines to crawl the public pages,
+# but keep the personal wishlist and checkout pages out of search results.
+User-agent: *
+Allow: /
+Disallow: /pages/wishlist.html
+Disallow: /pages/checkout.html
+
+Sitemap: https://braam-bakehouse.netlify.app/sitemap.xml

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Braam Bakehouse, Braamfontein Bakery</title>
+    <meta name="description" content="Learn the story, mission, vision and values of Braam Bakehouse, a local Braamfontein bakery baking fresh, affordable cakes, bread and pastries.">
+    <meta name="keywords" content="about Braam Bakehouse, local bakery Johannesburg, Braamfontein bakery story, affordable baked goods">
+    <meta name="author" content="Braam Bakehouse">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#5c2e1f">
+    <link rel="canonical" href="https://braam-bakehouse.netlify.app/pages/about.html">
+
+    <!-- social media previews (Facebook, WhatsApp, X) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Braam Bakehouse">
+    <meta property="og:locale" content="en_ZA">
+    <meta property="og:title" content="About Us | Braam Bakehouse, Braamfontein Bakery">
+    <meta property="og:description" content="Learn the story, mission, vision and values of Braam Bakehouse, a local Braamfontein bakery baking fresh, affordable cakes, bread and pastries.">
+    <meta property="og:url" content="https://braam-bakehouse.netlify.app/pages/about.html">
+    <meta property="og:image" content="https://braam-bakehouse.netlify.app/Image/braam-bakehouse-social.jpg">
+    <meta property="og:image:alt" content="Braam Bakehouse cakes, bread, cupcakes and pastries">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About Us | Braam Bakehouse, Braamfontein Bakery">
+    <meta name="twitter:description" content="Learn the story, mission, vision and values of Braam Bakehouse, a local Braamfontein bakery baking fresh, affordable cakes, bread and pastries.">
+    <meta name="twitter:image" content="https://braam-bakehouse.netlify.app/Image/braam-bakehouse-social.jpg">
+
+    <link rel="icon" type="image/png" href="../Image/favicon.png">
+    <link rel="preload" as="image" href="../Image/braam-bakehouse-logo.webp">
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head>
+
+<body id="top">
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <!-- three-line dropdown menu (mobile) -->
+        <div class="dropdown-menu">
+            <input type="checkbox" id="menu-toggle" aria-label="Open menu">
+            <label for="menu-toggle" class="menu-button" title="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="dropdown-content" aria-label="Menu">
+            <a href="../index.html">Homepage</a>
+            <a href="../pages/about.html">About us</a>
+            <a href="../pages/services.html">Services</a>
+            <a href="../pages/gallery.html">Gallery</a>
+            <a href="../pages/enquiry.html">Enquiry</a>
+            <a href="../pages/contact.html">Contact</a>
+            </nav>
+        </div>
+
+        <a href="../index.html" class="logo-link">
+            <img src="../Image/braam-bakehouse-logo.webp" alt="Braam Bakehouse logo - Freshly Baked. Made with Love." width="130" height="130">
+        </a>
+
+        <!-- search bar: sends the search to the Services page -->
+        <form class="search-container" role="search" action="../pages/services.html" method="get">
+            <label for="site-search" class="visually-hidden">Search our products</label>
+            <input type="search" id="site-search" name="q" placeholder="Search cakes, bread..." maxlength="60">
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- main navigation -->
+        <nav class="main-nav" aria-label="Main">
+            <a href="../index.html">Homepage</a>
+            <a href="../pages/about.html" aria-current="page">About us</a>
+            <a href="../pages/services.html">Services</a>
+            <a href="../pages/gallery.html">Gallery</a>
+            <a href="../pages/enquiry.html">Enquiry</a>
+            <a href="../pages/contact.html">Contact</a>
+        </nav>
+
+        <!-- cart and wishlist buttons (made to work by JS/script.js) -->
+        <div class="shop-bar">
+            <a href="../pages/wishlist.html" class="shop-link">&#9825; Wishlist (<span class="wish-count">0</span>)</a>
+            <button type="button" class="shop-link cart-open">&#128722; Cart (<span class="cart-count">0</span>)</button>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="page-intro reveal">
+            <p class="eyebrow">About us</p>
+            <h1>About Braam Bakehouse</h1>
+            <p>Braam Bakehouse is a local bakery created with a passion for fresh, delicious and affordable baked goods.
+                We provide a variety of products including <a href="services.html?category=cakes">cakes</a>,
+                <a href="services.html?category=cupcakes">cupcakes</a>, <a href="services.html?category=bread">bread</a>
+                and <a href="services.html?category=pastries">pastries</a> for customers in our local community.</p>
+        </section>
+
+        <section class="content-box reveal" aria-labelledby="who-title">
+            <h2 id="who-title">Get to know us</h2>
+            <p class="muted">Tap a heading to read more.</p>
+            <div class="accordion">
+                <h3>
+                    <button type="button" class="accordion-trigger" aria-expanded="true" aria-controls="panel-story" id="acc-story">Our Story</button>
+                </h3>
+                <div class="accordion-panel" id="panel-story" role="region" aria-labelledby="acc-story">
+                    <p>Braam Bakehouse was established with a simple idea: to create a bakery where customers can enjoy
+                        freshly baked products in a warm and welcoming environment.</p>
+                    <p>What started as a passion for baking has developed into a bakery focused on providing quality
+                        products for everyday customers and special occasions. We continue to improve our products while
+                        listening to the needs of our customers.</p>
+                </div>
+
+                <h3>
+                    <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="panel-mission" id="acc-mission">Our Mission</button>
+                </h3>
+                <div class="accordion-panel" id="panel-mission" role="region" aria-labelledby="acc-mission">
+                    <p>Our mission is to provide fresh, affordable and high-quality baked products while delivering
+                        friendly and reliable customer service.</p>
+                    <p>We aim to make delicious baked goods accessible to our customers while creating a positive
+                        experience every time they visit Braam Bakehouse.</p>
+                </div>
+
+                <h3>
+                    <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="panel-vision" id="acc-vision">Our Vision</button>
+                </h3>
+                <div class="accordion-panel" id="panel-vision" role="region" aria-labelledby="acc-vision">
+                    <p>Our vision is to become a trusted local bakery known for quality, freshness, creativity and
+                        excellent customer service.</p>
+                    <p>We hope to continue growing while maintaining the personal and welcoming experience that makes
+                        our bakery special.</p>
+                </div>
+
+                <h3>
+                    <button type="button" class="accordion-trigger" aria-expanded="false" aria-controls="panel-values" id="acc-values">Our Values</button>
+                </h3>
+                <div class="accordion-panel" id="panel-values" role="region" aria-labelledby="acc-values">
+                    <ul class="values-list">
+                        <li><b>Quality:</b> We are committed to maintaining high standards in everything we bake.</li>
+                        <li><b>Freshness:</b> We believe fresh products provide the best taste and experience.</li>
+                        <li><b>Creativity:</b> We enjoy creating unique cakes and baked goods for different occasions.</li>
+                        <li><b>Customer satisfaction:</b> Our customers are at the heart of what we do.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="visit reveal">
+            <h2>Made with care</h2>
+            <p>At Braam Bakehouse, every product is prepared with care because we believe that good food can make
+                every moment a little more special.</p>
+            <div class="btn-row">
+                <a class="btn" href="gallery.html">See our gallery</a>
+                <a class="btn-outline" href="enquiry.html">Plan a celebration cake</a>
+            </div>
+        </section>
+    </main>
+
+    <a href="#top" class="back-to-top">&uarr; Go Back to Top</a>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <section>
+                <h2>Braam Bakehouse</h2>
+                <p>100 Jorissen Street, Braamfontein,<br>Johannesburg, Gauteng</p>
+                <p>Mon - Fri: 09:00 - 17:00<br>Sat - Sun: 09:00 - 15:00</p>
+                <p>Phone: <a href="tel:+27612345678">061 234 5678</a><br>
+                   Email: <a href="mailto:info@braambakehouse.co.za">info@braambakehouse.co.za</a></p>
+            </section>
+            <section>
+                <h2>Quick links</h2>
+                <ul class="footer-links">
+                    <li><a href="../pages/services.html">Cakes, cupcakes, pastries and bread</a></li>
+                    <li><a href="../pages/enquiry.html">Custom cake and bulk order enquiries</a></li>
+                    <li><a href="../pages/gallery.html">Photo gallery</a></li>
+                    <li><a href="../pages/contact.html">Find us in Braamfontein</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Follow us</h2>
+                <ul class="footer-links">
+                    <li><a href="https://www.instagram.com/braambakehouse" target="_blank" rel="noopener noreferrer">Instagram @braambakehouse</a></li>
+                    <li><a href="https://www.facebook.com/braambakehouse" target="_blank" rel="noopener noreferrer">Facebook: Braam Bakehouse</a></li>
+                </ul>
+                <p class="share">Share this page:
+                    <a href="https://wa.me/?text=https://braam-bakehouse.netlify.app/pages/about.html" target="_blank" rel="noopener noreferrer">WhatsApp</a> &middot;
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://braam-bakehouse.netlify.app/pages/about.html" target="_blank" rel="noopener noreferrer">Facebook</a> &middot;
+                    <a href="https://x.com/intent/post?url=https://braam-bakehouse.netlify.app/pages/about.html" target="_blank" rel="noopener noreferrer">X</a>
+                </p>
+            </section>
+        </div>
+        <p class="copyright">&copy; 2026 Braam Bakehouse - Braamfontein Branch</p>
+    </footer>
+
+<script src="../JS/products.js" defer></script>
+<script src="../JS/script.js" defer></script>
+<script src="../JS/interactive.js" defer></script>
+</body>
+</html>
