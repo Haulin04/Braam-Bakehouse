@@ -2,6 +2,7 @@
 
 A website for **Braam Bakehouse**, a fictional student bakery at 100 Jorissen Street, Braamfontein, Johannesburg.
 Built with plain **HTML, CSS and JavaScript** (no frameworks), so it runs on any free static host such as Netlify or GitHub Pages.
+this website also have a link which works
 
 ## Pages
 
